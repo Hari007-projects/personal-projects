@@ -1,0 +1,279 @@
+:root {
+    --bg_main: white ;
+    --text_light:skyblue;
+    --text_med: black;
+    --text_dark: #1e2432;
+    --red: #a3ff66;
+    --darkred:  #ff3366;
+    --orange: #ff8c00;
+  }
+
+  #sky{
+    width: 20px;
+    height: 10px;
+    margin-left: 200px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+  }
+  
+ 
+  
+  button {
+    cursor: pointer;
+    background-color: royalblue;
+  }
+  *:focus {
+    outline: none;
+  }
+  
+  input {
+    -webkit-appearance: none;
+    border: none;
+   
+    border-radius: 15px;
+    
+  }
+   
+  button,
+  input {
+   margin-left: 300px;
+    outline: none;
+    border:none;
+    text-align: center;
+   
+   
+   
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  body {
+    font: 1rem/1.3;
+    background: var(--bg_main);
+    color: var(--text_dark);
+    padding: 70px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  
+
+  .start {
+    color: var(--text_light);
+    background-image: url("sky/cloud10.png");
+    
+   
+  }
+  .heading {
+  
+    font-weight: lighter;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
+    padding: 0 0 30px 0;
+    color:black ;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+    
+  }
+  
+  .start form {
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+    
+  }
+  
+  .start form input {
+    font-size: 1.2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    box-shadow: 2px 6px rgb(176, 176, 166);
+  
+    
+    
+     
+  }
+  
+  .start form input::placeholder {
+    color: currentColor; 
+    
+  }
+  
+  .start form button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background: var(royalblue);
+    transition: background 0.3s ease-in-out;
+   
+    
+  }
+  
+  .start form button:hover {
+    background: var(--darkred);
+  }
+  
+  .start form .msg {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    max-width: 450px;
+    min-height: 40px;
+    color: black;
+    margin-left: 320px;
+  }
+  
+  .end {
+    margin: 70px 0 20px;
+    background-color: white;
+    position: relative;
+    background-image:url("sky/cloud.png");
+    background-repeat: no-repeat;
+    
+  }
+  
+  
+  .end .cities {
+    display: grid;
+    grid-gap: 32px 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .end .city {
+    position: relative;
+    padding: 40px 10%;
+    border-radius: 20px;
+    background: var(--text_light);
+    color:green;
+  }
+  
+  .end .city::after {
+    content: '';
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    bottom: -12px;
+    left: 5%;
+    z-index: -1;
+    opacity: 0.8;
+    border-radius: 20px;
+    background: var(--text_light);
+    
+  }
+  
+  .ajax-section figcaption {
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: black;
+  }
+  
+  .end .city-temp {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--text_dark);
+  }
+  
+  .end .city sup {
+    font-size: 0.5em;
+  }
+  
+  .end .city-name sup {
+    padding: 0.2em 0.6em;
+    border-radius: 30px;
+    color: var(--text_light);
+    background: var(--orange);
+  }
+  
+  .end .city-icon {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    
+  }
+  
+  
+  
+  
+  @media  screen and (max-width: 1000px) {
+    body {
+      padding: 30px;
+    }
+    
+    .end .cities {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .heading,
+    .end .city-temp {
+      font-size: 3rem;
+    }
+    
+    .end {
+      margin-top: 20px;
+    }
+    
+    .start form {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .start form input,
+    .start form button {
+      width: 100%;
+    }
+  
+    .start form button {
+      margin: 20px 0 0 0;
+    }
+    
+    .start form .msg {
+      position:static;
+      max-width: none;
+      min-height: 0;
+      margin-top: 10px;
+    }
+  
+    .end .cities {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media  screen and (max-width: 300px) {
+    body {
+      padding: 15px;
+    }
+    
+    .end .cities {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  
+ 

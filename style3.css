@@ -1,0 +1,1131 @@
+
+ .section0{
+  background-image: url(imgport/sky.jpg);
+  height: auto; width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+      .aboutpage{
+      width: 100%; 
+        }
+  
+  .aboutpage2{
+      align-items: center;
+      flex-wrap: wrap;
+      column-gap:5vw;
+  }
+  
+  #about{
+  
+  
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .imagediv{
+    width: 45vw; 
+    position: relative; 
+  
+  
+  }
+  .contentdiv{
+    display: flex;
+    color: white;
+    width: 55vw;
+    align-items: center;
+    
+  }
+  
+  .section1 div img{
+      position: absolute;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 550px;
+      width: 550px;
+      bottom: 10%;
+  }
+  
+  
+  .sun{
+      animation: round 10s infinite;
+      animation-timing-function: linear;
+      position: absolute;
+      
+     
+  }
+  
+  @keyframes round{
+      100%{
+       rotate: 360deg;
+          animation-timing-function: linear;
+      }
+  
+    }
+  
+  #hari{
+      position: absolute;
+      bottom: 0;
+      left: 15vw;
+      width: 30vw;
+      height: 90vh;
+   
+      
+  }
+  
+  
+  
+  .animate{
+    animation: hideShowAnimation 3s ease-in-out infinite;
+  }
+  
+  @keyframes hideShowAnimation {
+    0%, 25% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    50%, 75% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .aboutcontent h1{
+        color: white;
+        font-size: 3rem;
+        margin-left: 50px;
+  
+    }
+    .aboutcontent h2{
+        font-size: 2rem;
+        color: white;
+        margin-left: 50px;
+       
+    }
+    .aboutcontent h3{
+        font-size: 2rem;
+        color: white;
+        margin-left: 50px;
+       
+    }
+    .aboutcontent span{
+        font-size: 3.2rem;
+        color: white;
+       
+    }
+    .aboutcontent p{
+        font-size: 1rem;
+        margin-left: 50px;
+    }
+   
+    @keyframes round{
+      100%{
+          rotate: 360deg;
+          animation-timing-function: linear;
+      }
+  
+    }
+
+    .skilltop{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      
+   
+   
+}
+.container5{
+  
+  display: flex;
+ 
+}
+ 
+
+
+
+.skills1{
+    height: 500px;
+    box-shadow: -1px 2px 23px 12px rgba(255, 18, 18, 0.75);
+-webkit-box-shadow: -1px 2px 23px 12px rgba(255, 18, 18, 0.75);
+-moz-box-shadow: -1px 2px 23px 12px rgba(255, 18, 18, 0.75);
+
+}
+
+.skills2{
+    height: 500px;
+    box-shadow: -1px 2px 23px 12px rgba(18, 129, 255, 0.884);
+-webkit-box-shadow: -1px 2px 23px 12px rgba(18, 129, 255, 0.884);
+-moz-box-shadow: -1px 2px 23px 12px rgba(18, 129, 255, 0.884);
+}
+
+.skills3{
+    height: 500px;
+    box-shadow: -1px 2px 23px 12px rgb(255, 251, 0);
+-webkit-box-shadow: -1px 2px 23px 12px rgb(255, 251, 0);
+-moz-box-shadow: -1px 2px 23px 12px rgb(255, 251, 0);
+}
+
+.skills4{
+    height: 500px;
+    box-shadow: -1px 2px 23px 12px rgba(141, 18, 255, 0.849);
+-webkit-box-shadow: -1px 2px 23px 12px rgba(141, 18, 255, 0.849);
+-moz-box-shadow: -1px 2px 23px 12px rgba(141, 18, 255, 0.849);
+}
+
+.pro1{
+    background-color: #ff4000;
+   
+}
+
+.pro2{
+    background-color: #4b49eeef;
+   
+}
+.pro3{
+    background-color: #f6fa00;
+   
+}
+.pro4{
+    background-color: #8c06fa;
+   
+}
+
+.cardtext{
+  text-align: center; 
+  line-height: 18px;
+
+}
+
+
+
+
+
+
+
+
+.inner1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+  border-radius: 1%;
+  height: 600px;
+  
+   box-shadow: 1px 0px 10px 7px rgba(224, 223, 223, 0.678);
+  font-size: x-large;
+  font-style: inherit;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+     
+   }
+  
+   
+  
+   .txtsec p span{
+     
+      
+      font-weight:bold ; 
+      color: rgba(17, 14, 185, 0.904) ; 
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+      
+      text-shadow: -2px 0px 1px rgba(77, 106, 231,  0.66);
+      
+   }
+   .txtsec p{
+    margin-top: 30px;
+   }
+   
+  .carousel-inner{
+     
+      box-shadow: 1px 0px 10px 7px rgba(224, 223, 223, 0.678);
+  }
+  
+  #Education{
+      margin-left: 2%;
+      
+    
+  }
+  
+  .previouspng{
+    width: 30px;
+  
+  }
+   .nextpng{
+      width: 30px;
+   }
+  
+   .edtxt{
+      text-align: center;
+      margin-bottom: 5%;
+   }
+  
+   body{
+     overflow-x:hidden ;
+   }
+  
+  .coimg{
+    
+      
+      width: 30%;
+  }
+  .coimg1{
+     
+       margin-top: 2%;
+       width: 20%;
+   }
+
+   #project1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+
+  .projecttopdiv{
+    display: flex;
+    justify-content: center;
+border-radius: 5px;
+top: 20px;
+position: relative;
+width: 1150px;
+height: 600px;
+background-color: #66b3ff;
+background-image: url("imgport/projectsky.avif");
+
+
+}
+.project{
+width: 350px;
+height: 200px;
+display: flex;
+position: absolute;
+top: 10%;
+perspective: 1000px;
+transform-style: preserve-3d;
+transform: rotatey(-10deg) rotatex(-10deg);
+color: white;
+
+
+}
+.proimages{
+width: 100%;
+display: flex;
+
+transform-style: preserve-3d;
+animation: rotate 20s linear infinite;
+
+
+
+
+}
+.photo{
+ 
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+ padding: 0;
+ box-shadow: inset 0px 0px 16px 9px rgba(253, 253, 253, 0.986);
+ border-radius: 4px;
+ 
+  
+}
+
+
+
+@keyframes rotate{
+ from{
+
+}
+to{
+  transform: rotateY(360deg);
+}
+
+
+
+
+}
+
+.photo:nth-child(1){
+transform: rotateY(90deg) translateZ(250px);
+}
+.photo:nth-child(2){
+transform: rotateY(180deg) translateZ(250px);
+}
+.photo:nth-child(3){
+transform: rotateY(270deg) translateZ(250px);
+}
+.photo:nth-child(4){
+transform: rotateY(360deg) translateZ(250px);
+}
+
+
+
+
+.photo img{
+width: 400px;
+height: 200px;
+display: flex;
+box-shadow: 0px 0px 8px 0px rgba(253, 253, 253, 0.986);
+
+
+}
+
+.proh1{
+text-align: center;
+margin-top: 0;
+}
+
+.prop{
+text-align: center;
+margin-top: 0;
+
+}
+
+
+  
+.contactrow{
+  display: flex;
+  background-image: url('imgport/sky.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+  border-radius: 5px;
+  box-shadow:  0px 0px 10px 5px rgba(1, 1, 32, 0.849);
+  }
+
+  .textcontact{
+   text-align: center;
+ }
+  .animation-container {
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 20px;
+   
+ }
+
+ .animation-container a{
+   text-decoration: none;
+ }
+ 
+ .animated-text {
+   font-size: 24px;
+   font-weight: bold;
+   color:white;
+   animation: floatAnimation 3s ease-in-out infinite;
+   margin-top: 40px;
+  
+ }
+ 
+ 
+ 
+
+ @keyframes floatAnimation {
+   0%, 100% {
+     transform: translateY(0);
+   }
+   50% {
+     transform: translateY(-10px);
+   }
+ }
+
+
+
+ .contactform{
+  display: flex;
+   color: white;
+   height: 500px;
+   width: 400px;
+  
+   margin-left: 160px;
+  
+   
+ }
+ .contactform form{
+  margin-top: 90px;
+ }
+ 
+  .contabout{
+    display: flex;
+   color: white;
+   margin-top: 133px;
+   margin-left: 10px;
+  
+   margin-left:40px;
+   flex-direction: column;
+  
+  }
+ 
+
+
+
+   
+  @media screen and (max-width: 997px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   
+    .section1 div img{
+
+        height: 370px;
+        width: 370px;
+        left: 0%;
+        bottom: 30%;
+
+    }
+  
+    .aboutcontent{
+      margin-top: 40px;
+    }
+    .aboutcontent h1{
+        color: white;
+        font-size: 1.8rem;
+    }
+    .aboutcontent h2{
+        font-size: 2.6rem;
+        margin-left: 50px;
+    }
+    .aboutcontent span{
+        font-size: 2.8rem;
+        color:white;
+    }
+    .aboutcontent p{
+        font-size: 1.2rem;
+        margin-left: 50px;
+    }
+   
+
+   
+    
+ 
+
+  }
+
+  @media screen and (max-width: 825px){
+
+    #about{
+background-image: url(imgport/sky.jpg);
+
+display: flex;
+flex-direction: row;
+height: 70vh;
+width: 100vw;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#hari{
+        position: absolute;
+        bottom: 0;
+        left: 10vw;
+        width: 40vw;
+        height: 60vh;
+        align-items: center;
+    
+    }
+    .section1 div img{
+
+        height: 300px;
+        width: 300px;
+        left: 0%;
+        bottom: 30%;
+    }
+    .aboutcontent h1{
+        color:white;
+        font-size: 1.8rem;
+    }
+    .aboutcontent h2{
+        font-size: 2.6rem;
+        margin-left: 50px;
+    }
+    .aboutcontent span{
+        font-size: 1.8rem;
+        color: white;
+    }
+    .aboutcontent p{
+        font-size: 1rem;
+        margin-left: 50px;
+    }
+    .project{
+      width: 200px;
+      height: 100px;
+     
+    display: flex;
+      position: absolute;
+      top: 10%;
+     perspective: 1000px;
+      transform-style: preserve-3d;
+      transform: rotatey(-10deg) rotatex(-10deg);
+      color: white;
+    
+     
+     }
+     .proimages{
+      width: 100%;
+      display: flex;
+      
+      transform-style: preserve-3d;
+      animation: rotate 20s linear infinite;
+    
+     
+     
+    
+     }
+      .photo{
+       
+        
+        display: flex;
+        flex-direction: column;
+       padding: 0;
+       box-shadow: inset 0px 0px 16px 9px rgba(253, 253, 253, 0.986);
+       border-radius: 4px;
+    
+        
+      }
+      .photo img{
+      width: 200px;
+    height: 200px;
+    display: flex;
+    box-shadow: 0px 0px 8px 0px rgba(253, 253, 253, 0.986);
+    
+    
+    }
+     
+     
+     
+     @keyframes rotate{
+       from{
+    
+      }
+      to{
+        transform: rotateY(360deg);
+      }
+    
+    
+    
+    
+     }
+    
+     .photo:nth-child(1){
+      transform: rotateY(90deg) translateZ(125px);
+     }
+     .photo:nth-child(2){
+      transform: rotateY(180deg) translateZ(125px);
+     }
+     .photo:nth-child(3){
+      transform: rotateY(270deg) translateZ(125px);
+     }
+     .photo:nth-child(4){
+      transform: rotateY(360deg) translateZ(125px);
+     }
+     
+    
+    
+    
+    
+    
+    .proh1{
+    text-align: center;
+    margin-top: 0;
+    font-size: 1rem;
+    }
+    
+    .prop{
+    text-align: center;
+    margin-top: 0;
+    font-size: 0.8rem;
+    }
+
+    .contactrow{
+      display: flex;
+      flex-direction: column;
+     align-items: center;
+      background-image: url('imgport/sky.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+      border-radius: 5px;
+      box-shadow:  0px 0px 10px 5px rgba(1, 1, 32, 0.849);
+      }
+    
+      .textcontact{
+       text-align: center;
+     }
+      .animation-container {
+        margin-left: 0%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+     
+      
+       
+      
+       
+     }
+    
+     .animation-container a{
+       text-decoration: none;
+     }
+     
+     .animated-text {
+       font-size: 24px;
+       font-weight: bold;
+       color:white;
+       animation: floatAnimation 3s ease-in-out infinite;
+     
+      
+     }
+     
+     
+     
+    
+     @keyframes floatAnimation {
+       0%, 100% {
+         transform: translateY(0);
+       }
+       50% {
+         transform: translateY(-10px);
+       }
+     }
+    
+    
+    
+     .contactform{
+      display: flex;
+       color: white;
+       
+      margin-left: 0%;
+     
+       
+     }
+    
+     
+      .contabout{
+        display: flex;
+       color: white;
+       
+      margin-left: 0%;
+      
+     
+       flex-direction: column;
+      
+      }
+     
+      
+    
+    
+
+  }
+
+  @media screen and (max-width: 745px){
+
+    #about{
+background-image: url(imgport/sky.jpg);
+
+display: flex;
+flex-direction: row;
+height:auto;
+width: 100vw;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+    .section1 div img{
+
+        height: 220px;
+        width: 220px;
+     left: 0%;
+       bottom: 20%;
+    }
+    #hari{
+        position: absolute;
+        bottom: 0;
+        left: 10vw;
+        width: 40vw;
+        height: 50vh;
+        align-items: center;
+    
+    }
+    .aboutcontent h1{
+        color:white;
+        font-size: 1.8rem;
+    }
+    .aboutcontent h2{
+        font-size: 1.2rem;
+        margin-left: 50px;
+    }
+    .aboutcontent h3{
+        font-size: 1rem;
+        color:white;
+    }
+    .aboutcontent p{
+        font-size: 0.6rem;
+        margin-left: 50px;
+    }
+
+    .skilltop{
+      display: flex;
+     
+      justify-content: center;
+     
+      flex-direction: column;
+   
+   
+}
+.container5{
+  display: flex;
+ }
+
+.cardtext{
+ font-size: 0.8rem;
+}
+
+
+
+.container3{
+  display: flex;
+  justify-content: center;
+
+}
+
+ 
+
+.skills1{
+
+
+    height:450px;
+    width: 200px;
+    box-shadow: -1px 2px 23px 12px rgba(255, 18, 18, 0.75);
+-webkit-box-shadow: -1px 2px 23px 12px rgba(255, 18, 18, 0.75);
+-moz-box-shadow: -1px 2px 23px 12px rgba(255, 18, 18, 0.75);
+}
+
+.skills2{
+ 
+  height:450px;
+    width: 200px;
+    margin-top: 30px;
+    box-shadow: -1px 2px 23px 12px rgba(18, 129, 255, 0.884);
+-webkit-box-shadow: -1px 2px 23px 12px rgba(18, 129, 255, 0.884);
+-moz-box-shadow: -1px 2px 23px 12px rgba(18, 129, 255, 0.884);
+}
+
+.skills3{
+  height:450px;
+    width: 200px;
+    margin-top: 30px;
+    box-shadow: -1px 2px 23px 12px rgb(255, 251, 0);
+-webkit-box-shadow: -1px 2px 23px 12px rgb(255, 251, 0);
+-moz-box-shadow: -1px 2px 23px 12px rgb(255, 251, 0);
+}
+
+.skills4{
+  height:450px;
+    width: 200px;
+    margin-top: 30px;
+    box-shadow: -1px 2px 23px 12px rgba(141, 18, 255, 0.849);
+-webkit-box-shadow: -1px 2px 23px 12px rgba(141, 18, 255, 0.849);
+-moz-box-shadow: -1px 2px 23px 12px rgba(141, 18, 255, 0.849);
+}
+
+.pro1{
+    background-color: #ff4000;
+   
+}
+
+.pro2{
+    background-color: #4b49eeef;
+   
+}
+.pro3{
+    background-color: #f6fa00;
+   
+}
+.pro4{
+    background-color: #8c06fa;
+   
+}
+
+.inner1 {
+  display: flex;
+  flex-direction: column;
+ 
+  
+  
+  border-radius: 1%;
+  height: 400px;
+  
+   box-shadow: 1px 0px 10px 7px rgba(224, 223, 223, 0.678);
+  font-size: x-large;
+  font-style: inherit;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+     
+   }
+  
+   
+  
+   .txtsec p span{
+     
+      
+      font-weight:bold ; 
+      color: rgba(17, 14, 185, 0.904) ; 
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+      text-shadow: -2px 0px 1px rgba(77, 106, 231,  0.66);
+      
+   }
+   .txtsec p{
+    
+   
+    font-size: 0.8rem;
+   }
+   
+  .carousel-inner{
+     
+      box-shadow: 1px 0px 10px 7px rgba(224, 223, 223, 0.678);
+  }
+  
+  #Education{
+      margin-left: 2%;
+      
+    
+  }
+  
+  .previouspng{
+    width: 20px;
+  
+  }
+   .nextpng{
+      width: 20px;
+   }
+  
+   .edtxt{
+      text-align: center;
+      margin-bottom: 5%;
+   }
+  
+   body{
+     overflow-x:hidden ;
+   }
+  
+  .coimg{
+  
+    
+      width: 30%;
+  }
+  .coimg1{
+   
+     
+       margin-top: 2%;
+       width: 20%;
+   }
+
+   #project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  
+
+  .projecttopdiv{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+top: 20px;
+position: relative;
+width: 420px;
+height: 380px;
+background-color: #66b3ff;
+background-image: url("imgport/projectsky.avif");
+
+
+}
+.project{
+width: 200px;
+height: 100px;
+
+display: flex;
+position: absolute;
+top: 10%;
+perspective: 1000px;
+transform-style: preserve-3d;
+transform: rotatey(-10deg) rotatex(-10deg);
+color: white;
+
+
+}
+.proimages{
+width: 100%;
+display: flex;
+
+transform-style: preserve-3d;
+animation: rotate 20s linear infinite;
+
+
+
+
+}
+.photo{
+ 
+  
+  display: flex;
+  flex-direction: column;
+ padding: 0;
+ box-shadow: inset 0px 0px 16px 9px rgba(253, 253, 253, 0.986);
+ border-radius: 4px;
+
+  
+}
+.photo img{
+width: 200px;
+height: 200px;
+display: flex;
+box-shadow: 0px 0px 8px 0px rgba(253, 253, 253, 0.986);
+
+
+}
+
+
+
+@keyframes rotate{
+ from{
+
+}
+to{
+  transform: rotateY(360deg);
+}
+
+
+
+
+}
+
+.photo:nth-child(1){
+transform: rotateY(90deg) translateZ(125px);
+}
+.photo:nth-child(2){
+transform: rotateY(180deg) translateZ(125px);
+}
+.photo:nth-child(3){
+transform: rotateY(270deg) translateZ(125px);
+}
+.photo:nth-child(4){
+transform: rotateY(360deg) translateZ(125px);
+}
+
+
+
+
+
+
+.proh1{
+text-align: center;
+margin-top: 0;
+font-size: 1rem;
+}
+
+.prop{
+text-align: center;
+margin-top: 0;
+font-size: 0.8rem;
+}
+
+.contactrow{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  background-image: url('imgport/sky.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+  border-radius: 5px;
+  box-shadow:  0px 0px 10px 5px rgba(1, 1, 32, 0.849);
+  }
+
+  .textcontact{
+   text-align: center;
+ }
+  .animation-container {
+    margin-left: 0%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+   
+  
+   
+  
+   
+ }
+
+ .animation-container a{
+   text-decoration: none;
+ }
+ 
+ .animated-text {
+   font-size: 24px;
+   font-weight: bold;
+   color:white;
+   animation: floatAnimation 3s ease-in-out infinite;
+ 
+  
+ }
+ 
+ 
+ 
+
+ @keyframes floatAnimation {
+   0%, 100% {
+     transform: translateY(0);
+   }
+   50% {
+     transform: translateY(-10px);
+   }
+ }
+
+
+
+ .contactform{
+  display: flex;
+   color: white;
+   
+  margin-left: 0%;
+
+  
+   
+ }
+ 
+ 
+  .contabout{
+    display: flex;
+   color: white;
+   
+  margin-left: 0%;
+  
+  
+   flex-direction: column;
+  
+  }
+
+
+
+    
+  }
+
+ 
+   
